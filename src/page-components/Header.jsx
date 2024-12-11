@@ -19,9 +19,6 @@ export default function Header() {
     justify-content: flex;
     align-items: end;
     color: #fff;
-    &:hover{
-      color: var(--primary)
-    }
   `;
   const LogoImg = styled.img`
     width: 60px;
@@ -35,6 +32,9 @@ export default function Header() {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    @media (max-width: 600px) {
+      display: none;
+    }
   `;
 
   const MenuItem = styled.li`
