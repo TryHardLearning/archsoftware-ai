@@ -30,6 +30,9 @@ export default function WorkWith() {
     const Body = styled.div`
         padding: 4rem;
         margin: auto;
+        @media (max-width: 600px) {
+            padding: none;
+        }
   `;
 
     const Team = styled.section`
@@ -56,6 +59,7 @@ export default function WorkWith() {
         margin-right: 2rem;
         @media (max-width: 600px) {
           margin-top: 4rem;
+          margin-right: 0 !important;
         }
     `
     const SlideArea = styled.div`

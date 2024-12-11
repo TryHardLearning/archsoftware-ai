@@ -59,6 +59,7 @@ export default function OurTeam() {
         margin-right: 2rem;
         @media (max-width: 600px) {
           margin-top: 4rem;
+          margin-right: 0 !important;
         }
     `
     const SlideArea = styled.div`
