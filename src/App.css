@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+:root{
+    /*--primary: #b28756;*/
+    --primary: #3de7f2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 10px;
+    font-family: Arial;
+}
+::selection{
+    color: var(--primary);
+    background-color: #000;
+}
