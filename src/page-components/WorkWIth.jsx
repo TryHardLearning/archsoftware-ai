@@ -41,12 +41,22 @@ export default function WorkWith() {
         width: 400vw;
         height: 100%;
         transition: 2s;
+        @media (max-width: 600px) {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
     `
     const Slide = styled.div`
         width: 280px;
         height: 340px;
         display: inline-block;
         margin-right: 2rem;
+        @media (max-width: 600px) {
+          margin-top: 4rem;
+        }
     `
     const SlideArea = styled.div`
         height: 100%;
