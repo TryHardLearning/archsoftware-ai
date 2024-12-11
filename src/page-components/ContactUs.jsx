@@ -31,6 +31,9 @@ export default function ContactUs() {
     display: flex;
     height: 100%;
     color: #000;
+    @media (max-width: 600px) {
+      flex-direction: column-reverse;
+    }
   `;
   const Left = styled.div`
     flex: 1;
@@ -45,6 +48,9 @@ export default function ContactUs() {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   `;
   const MyImg = styled.img`
     width: 100%;
