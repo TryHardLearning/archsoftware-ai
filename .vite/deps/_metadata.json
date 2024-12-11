@@ -2,7 +2,48 @@
   "hash": "1413ed62",
   "configHash": "b0735626",
   "lockfileHash": "cd9a8fd0",
-  "browserHash": "d6306f5a",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "db7bd004",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0539a80b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e097be8f",
+      "needsInterop": true
+    },
+    "@emotion/styled": {
+      "src": "../../node_modules/@emotion/styled/dist/emotion-styled.browser.development.esm.js",
+      "file": "@emotion_styled.js",
+      "fileHash": "de5f798a",
+      "needsInterop": false
+    },
+    "@emotion/react": {
+      "src": "../../node_modules/@emotion/react/dist/emotion-react.browser.development.esm.js",
+      "file": "@emotion_react.js",
+      "fileHash": "9f41d192",
+      "needsInterop": false
+    },
+    "@mui/icons-material": {
+      "src": "../../node_modules/@mui/icons-material/esm/index.js",
+      "file": "@mui_icons-material.js",
+      "fileHash": "d9645ee6",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-2ZI3Y6CG": {
+      "file": "chunk-2ZI3Y6CG.js"
+    },
+    "chunk-C6XSHW46": {
+      "file": "chunk-C6XSHW46.js"
+    },
+    "chunk-45FXRYJS": {
+      "file": "chunk-45FXRYJS.js"
+    }
+  }
 }
