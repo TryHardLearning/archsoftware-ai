@@ -10,11 +10,12 @@ import ClouldImage from "../assets/images/cloud.png"
 export default function Services() {
   
   const DefaultContainer = styled.section`
-    width: 100%;
+  
     padding: 50px 0;
     background-color: #000;
-    box-shadow: 1px 0px 4px #000;
     color: #fff;
+    margin: 2rem;
+    border-radius: 8px;
   `;
   const Title = styled.div`
     text-align: center;
@@ -37,6 +38,9 @@ export default function Services() {
   `;
   const Services = styled.section`
     display: flex;
+     @media (max-width: 600px) {
+      flex-direction: column;
+    }
   `
   const AsService = styled.section`
     flex: 1;
@@ -48,6 +52,9 @@ export default function Services() {
     transition: 1s;
     &:hover {
       border-bottom: 1.5px solid var(--primary);
+    }
+    @media (max-width: 600px) {
+        margin-top: 5rem;
     }
   `;
   const ImgTecnologyLogo = styled.img`
