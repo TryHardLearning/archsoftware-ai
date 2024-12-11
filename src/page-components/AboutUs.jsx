@@ -31,6 +31,9 @@ export default function UboutUs() {
     display: flex;
     height: 100%;
     color: #000;
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
   `;
   const Left = styled.div`
     flex: 1;
@@ -51,6 +54,9 @@ export default function UboutUs() {
     justify-content: center;
     border-radius: 8px;
     background-color: rgba(30, 30, 30, 1);
+     @media (max-width: 600px) {
+      width: 100%;
+    }
   `;
   const MyImg = styled.img`
     width: 100%;
@@ -70,6 +76,9 @@ export default function UboutUs() {
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
+     @media (max-width: 600px) {
+      width: 100%;
+    }
   `;
 
   return (
