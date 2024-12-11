@@ -9,9 +9,6 @@ export default function Footer() {
         font-size: 4.5rem; /* Aumentado o tamanho do logo */
         color: #fff;
         transition: 0.7s ease;
-        &:hover{
-            color: var(--primary);
-        }
         
     `;
     const Icon = styled.div`
@@ -22,6 +19,13 @@ export default function Footer() {
     `;
     const Container = styled.section`
         font-size: 30px; /* Aumentado o tamanho base do texto */
+        padding: 4rem;
+        margin: 2rem;
+        border-radius: 8px;
+        @media (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+        }
     `;
     const LogoImg = styled.img`
         width: 4.5rem; /* Aumentado o tamanho dos ícones sociais */
